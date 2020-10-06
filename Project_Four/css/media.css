@@ -1,0 +1,95 @@
+/* Медиа запрос для экранов до  1140 */
+@media (max-width: 1140px)  {
+    .portfolio__item    {
+        width: calc(50% - 15px);
+    }
+    footer {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .footer__row    {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-col    {
+        margin-bottom: 50px;
+    }
+    .footer-col:first-child    {
+        margin-bottom: 0;
+    }
+}
+/* Медиа запрос для экранов до  760 */
+@media (max-width: 760px)  {
+    .logo h1    {
+        font-size: 32px;
+    }
+    .logo h2    {
+        font-size: 14px;
+    }
+    #portfolio  {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .portfolio__header  {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .portfolio__block {
+        justify-content: center;
+    }
+    .portfolio__item    {
+       max-width: 530px;
+        width: 100%;
+
+    }
+    .card__link {
+        padding: 15px;
+    }
+    .portfolio__item img {
+        margin-bottom: 10px;
+    }
+    .portfolio__item h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .portfolio__item p {
+        font-size: 14px;
+    }
+    .footer__copyright h2  {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .footer__copyright p  {
+        font-size: 14px;
+    }
+    .footer__icons  {
+        margin-top: 10px;
+    }
+    .footer__item p {
+        font-size: 14px;
+    }
+    .footer__contacts p {
+        font-size: 14px;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .project    {
+        padding: 40px 0 60px;
+    }
+    .project__header    {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    .project__img   {
+        padding-bottom: 20px;
+    }
+    .project__description   {
+        margin-bottom: 50px;
+    }
+    .project__button__back  {
+        padding: 0 10px;
+        width: 100%;
+        max-width: 320px;
+    }
+}

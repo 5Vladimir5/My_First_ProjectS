@@ -1,0 +1,230 @@
+body, h1, h2, h3, h4, h5, h6, p {
+    font-family: Arial, sans-serif;
+    color: #222;
+    padding: 0;
+    margin: 0 auto;
+}
+.clearfix   {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+div {
+    box-sizing: border-box;
+}
+.container {
+  width: 950px;
+  margin: 0 auto;
+}
+
+                /*Шапка сайта*/
+header {
+    background: url("../img/first-bg.jpg") no-repeat center top / cover;
+    height: 100vh;
+}
+.logo {
+    margin-top: 41px;
+    float: left;
+}
+
+nav {
+    float: right;
+    margin-top: 45px;
+}
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.menu li    {
+    float: left;
+    display: block;
+    margin-right: 41px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.titles__first {
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 280px;
+}
+h1 {
+    color: white;
+    font-size: 75px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px;
+}
+.button {
+    display: block;
+    background: #fed136;
+    color: #484543;
+    border-radius: 3px;
+    text-decoration: none;
+    width: 240px;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 60px;
+}
+            /*Первая секция сайта*/
+#services   {
+    padding-bottom: 115px;
+}
+.title  {
+    padding-top: 115px;
+}
+.title h2   {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+.title p{
+    text-align: center;
+    color: #777;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.services   {
+    margin-top: 50px;
+}
+.services__item {
+    width: 270px;
+    float: left;
+    text-align: center;
+}
+.services__item:last-child  {
+    float: right;
+}
+.services__item:nth-child(2) {
+    margin-left: 70px;
+}
+.services__item h3  {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.services__item p  {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.5em;
+}
+                /*Портфолио секция сайта*/
+#portfolio  {
+    background: #f7f7f7;
+    padding-bottom: 115px;
+}
+.works  {
+margin-top: 70px;
+}
+.works img  {
+    float: left;
+}
+.works img:nth-child(2) {
+    margin-left: 29px;
+}
+.works img:last-child   {
+    float: right;
+}
+                /*Отзывы секция сайта*/
+#reviews   {
+    padding-bottom: 115px;
+
+}
+.feedback   {
+    padding-bottom: 115px;
+}
+
+.feedback__item__left, feedback__item__right {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.feedback__item__left {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.feedback__text__left    {
+    padding: 0 30px 0 0;
+    flex: 0 1 40%;
+}
+.feedback__text__left h3    {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: right;
+    padding-bottom: 15px;
+}
+.feedback__text__left h4    {
+    font-size: 18px;
+    text-align: right;
+    padding-bottom: 25px;
+}
+.feedback__text__left p{
+    font-size: 14px;
+    color: #777;
+    line-height: 1.5em;
+    text-align: right;
+
+}
+.feedback__item__left img{
+    flex: 0 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.feedback__item__right {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    align-items: center;
+}
+.feedback__text__right  {
+    padding: 0 0 0 30px;
+    flex: 0 1 40%;
+    text-align: left;
+}
+.feedback__text__right h3    {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-bottom: 15px;
+}
+.feedback__text__right h4    {
+    font-size: 18px;
+    text-align: left;
+    padding-bottom: 25px;
+}
+.feedback__text__right p{
+    font-size: 14px;
+    color: #777;
+    line-height: 1.5em;
+    text-align: left;
+}
+.feedback__item__right img{
+    flex: 0 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+/*Footer секция сайта*/
+footer{
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.footer__text   {
+    display: flex;
+}
+.footer__h4 {
+    color: #777;
+}
